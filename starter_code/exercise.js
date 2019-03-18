@@ -36,7 +36,7 @@ exercise.objectArray = function(){
     //   Return an array of empty objects
     //   The array can have any length you like.
     // ----------------------------------------
-    var length = 5;
+    var length = 5; // modify this to change number of objects
     var arr = new Array();
     for(var i = 0; i<length;i++){
         arr.push(new Object());
@@ -241,7 +241,9 @@ exercise.getNumberOfZipCodesWith = function(payroll,num){
         }
     });
 
-    return filteredzips;
+
+    var numzips = filteredzips.length;
+    return numzips;
 };
 
 
